@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+body{
+    background-color: #F5F5F5;
+}
+a {
+    text-decoration:none;
+    color: black;
+}
+s, i {
+    font-style: normal;
+    text-decoration: none;
+}
+.one{
+    color: red;
+}
+.box {
+    width: 1202px;
+    margin: 30px auto;
+    overflow: hidden;
+
+}
+
+.leftbox {
+    float: left;
+    width: 228px;
+    height: 100%;
+    background-color: white;
+}
+
+.rightbox {
+    float: right;
+    width: 960px;
+    height: 100%;
+    background-color: white;
+}
+
+.leftbox dl {
+    margin-left: 50px;
+    margin-bottom: 65px;
+
+}
+
+.leftbox dl dt {
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.leftbox dl dd {
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.cor-333{
+    color: #333333;
+}

@@ -1,0 +1,199 @@
+.topbox {
+    height: 200px;
+    background-color: white;
+}
+
+.topbox ul {
+    padding-top: 30px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.topbox ul li {
+    margin-left: 50px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    font-weight: 700;
+}
+
+.line {
+
+    width: 860px;
+    margin: 0 auto;
+    height: 1px;
+    border-top: 2px solid #F5F5F5;
+    position: relative;
+
+}
+
+.line-one {
+    width: 76px;
+    height: 1px;
+    border-top: 2px solid red;
+    position: absolute;
+    top: -1px;
+}
+
+.topbox p {
+    height: 150px;
+    line-height: 150px;
+    display: block;
+    text-align: center;
+}
+
+.botbox {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.botbox ul {
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.botbox ul .wll {
+    padding-left: 50px;
+    padding-top: 50px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    font-weight: 700;
+}
+.botbox .coup {
+    margin-left: 12px;
+}
+
+.botbox .coup ul {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 53px;
+}
+
+.botbox .coup ul li {
+    width: 196px;
+    float: left;
+    background-color: #74D2D4;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.botbox .coup-quan {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.botbox .coup-quan p {
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.botbox .cir {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: -54px;
+}
+
+.botbox .coup-p1 {
+    padding-left: 55px;
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.botbox .coup-p2 {
+    padding-left: 45px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: white;
+}
+
+.botbox .coup-p3 {
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #44a7a7;
+}
+.botbox .sml {
+    padding-top: 20px;
+
+}
+.botbox .sml div {
+    margin-left: 5.5px;
+    float: left;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+.botbox .spu {
+    background-color: #faf9f9;
+    margin-top: 5px;
+    padding-bottom: 17px;
+}
+.botbox .coup-p4 {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+.botbox .coup-p4 span{
+    color: #a7a7a7;
+}
+
+.botbox .coup-p5 {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+.botbox .coup-p5 span{
+    color: #a7a7a7;
+}
+.botbox .sy {
+    margin-top: 17px;
+    width: 120px;
+    height: 30px;
+    background-color: #faf9f9;
+    border-radius: 30px;
+    border: 1px solid #80d6d7;
+    margin-left: 35px;
+}
+.botbox .sy a {
+    display: block;
+    font-size: 12px;
+    color: #80d6d7;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.botbox .coup3 a,
+.botbox .coup4 a{
+    color: #d5d5d5;
+}
+.botbox .coup3 .sy,
+.botbox .coup4 .sy{
+    border: 1px solid #d5d5d5;
+}
+.botbox .coup .coup4 {
+    background-color: #d0d0d0;
+}
+.botbox .coup .coup4 .coup-quan {
+    background-color: #bfbfbf;
+}
+.botbox .coup .coup4 .coup-p3{
+    color: white;
+}
